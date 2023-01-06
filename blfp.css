@@ -1,0 +1,151 @@
+
+body{
+
+}
+header{
+    background-color: rgb(206, 14, 14);
+}
+.header{
+    font-style: italic;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    background-image: url('ar_ultimae.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header h1{
+    font-size: 30px;
+    margin: 0%;
+    color: white;
+    text-shadow: red 2px 5px;
+}
+.info{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#mgt{
+    color: red;
+    font-size: 30px;
+    margin: 0 50vw 0 0;
+
+}
+.header_nav{
+    height: 24px;
+    font-size: 20px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    margin: 0 10px 0 0;
+
+}
+.header_nav a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.header_nav a:hover{
+    background-color: rgb(255, 255, 255, 0,9);
+}
+
+.carousel-item img{
+    height: 700px;
+}
+
+.bugatti{
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+}
+.bugatti-version img{
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+.bugatti-version img:hover{
+    width: 800px;
+    height: 500px;
+}
+
+.lamborghini{
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+}
+.lambo-version img{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+.lambo-version img:hover{
+    width: 800px;
+    height: 500px;
+}
+
+.ferrari{
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+}
+.ferrari-version img{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+.ferrari-version img:hover{
+    width: 800px;
+    height: 500px;
+}
+
+.porsche{
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+}
+.porsche-version img{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+.porsche-version img:hover{
+    width: 800px;
+    height: 500px;
+}
+
+.porsche{
+}
+
+.cateristiq span{
+    color: red;
+    text-align: right;
+    text-align: end;
+
+}
+#name{
+    color: blue;
+    margin-right: 7vw;
+}
+
+
+.footer p{
+    text-align: center;
+    margin: 10px;
+}
+.footer_link{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+.local{
+    text-align: center;
+}
+.contact{
+    background-color: rgb(102, 98, 98);
+}
